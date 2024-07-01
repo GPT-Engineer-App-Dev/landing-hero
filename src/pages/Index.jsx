@@ -1,7 +1,12 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+
 function Index() {
   return (
     <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
-      {/* Update with components here - default to put new layout sections as separate components in the components folder, and import them here */}
+      
       <section className="text-center">
         <h1 className="text-4xl font-bold">Welcome to SaaS Inc</h1>
         <p className="mt-4 text-lg text-muted-foreground">
